@@ -1,115 +1,88 @@
-Simple Coin Flip Game
+# Simple Coin Flip Game
 
-A browser-based learning project that uses JavaScript to create a simple coin flip game.
+Choose heads or tails and see whether your pick matches a server-generated coin flip.
 
-About
+## Overview
 
-The player chooses either heads or tails and flips a virtual coin.
+Simple Coin Flip Game lets a player choose heads or tails, then sends that choice to a Node.js server.
 
-The application randomly generates the result of the coin flip and compares it with the player's selection. The player is then shown whether they won or lost.
+The server randomly generates the coin result, compares it with the player's selection, and returns whether the player won or lost. The result is then displayed in the browser.
 
-This project focuses on practicing JavaScript fundamentals, DOM manipulation, event handling, random number generation, and basic game logic.
+## Features
 
-How to Play
+- Choose heads or tails
+- Random coin result generated on the server
+- Win or loss result based on the player's selection
+- Browser interface for repeated rounds
+- Node.js HTTP server and API endpoint
 
-Choose heads or tails.
+## Technologies
 
-Flip the coin.
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" title="HTML">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" width="40" height="40">
+  </a>
+  &nbsp;
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" title="CSS">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" width="40" height="40">
+  </a>
+  &nbsp;
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="JavaScript">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40">
+  </a>
+  &nbsp;
+  <a href="https://nodejs.org/" title="Node.js">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" width="40" height="40">
+  </a>
+</p>
 
-The application randomly generates heads or tails.
+## How to Run
 
-The result is displayed on the page.
+1. Clone the repository:
 
-The application checks the result against your selection.
+```bash
+git clone https://github.com/nilesleesmith/simple-coin-flip-game.git
+```
 
-Find out whether you won or lost.
+2. Open the project folder:
 
-Play again.
+```bash
+cd simple-coin-flip-game
+```
 
-Features
+3. Start the Node.js server:
 
-Choose heads or tails
-
-Random coin flip
-
-Visual result
-
-Win or loss message
-
-Interactive user interface
-
-Play multiple rounds
-
-What I Practiced
-
-JavaScript
-
-DOM manipulation
-
-Event handling
-
-Random number generation
-
-Conditional logic
-
-Functions
-
-Variables
-
-User interaction
-
-Updating the page dynamically
-
-Basic game logic
-
-Technologies
-
-HTML5
-
-CSS3
-
-JavaScript
-
-Node.js
-
-Purpose
-
-This started as a simple programming exercise and became an opportunity to practice JavaScript application logic.
-
-The goal was to take a simple idea and turn it into an interactive browser application. The project helped me practice connecting HTML, CSS, and JavaScript together while working with user input and dynamically changing the page.
-
-Running the Project
-
-Clone the repository and open the project in your code editor.
-
-Install the project dependencies:
-
-npm install
-
-
-Start the server:
-
+```bash
 node server.js
+```
 
+4. Open the application in a browser:
 
-Open the application in your browser using the local address provided by the server.
+```text
+http://localhost:8000
+```
 
-Project Structure
+No additional packages or installation steps are required.
 
-index.html - Main page for the game
+## Live Site
 
-css/ - Stylesheets
+Coming soon.
 
-js/ - JavaScript game logic
+## Screenshots
 
-images/ - Images used by the application
+### Desktop
 
-server.js - Node.js server
+![Simple Coin Flip Game desktop view](./images/screenshots/simple-coin-flip-game-desktop.png)
 
-What I Learned
+### Tablet
 
-This project gave me more practice turning JavaScript logic into something a user can interact with.
+![Simple Coin Flip Game tablet view](./images/screenshots/simple-coin-flip-game-tablet.png)
 
-The coin flip itself is simple, but building the application required connecting several pieces together. The user's selection needs to be captured, a random result needs to be generated, and the page needs to respond to the result.
+### Mobile
 
-This helped reinforce the relationship between HTML, CSS, and JavaScript and gave me more experience writing small applications with clear, simple logic.
+![Simple Coin Flip Game mobile view](./images/screenshots/simple-coin-flip-game-mobile.png)
+
+## Image Credits
+
+- Head icon: Gregor Cresnar / Flaticon
+- Whale-tail icon: Fahrul Saputra / Flaticon
