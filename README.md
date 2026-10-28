@@ -66,21 +66,11 @@ No additional packages or installation steps are required.
 
 ## Live Site
 
-Coming soon.
+https://simple-coin-flip-game.onrender.com
 
 ## Screenshots
 
-### Desktop
-
 ![Simple Coin Flip Game desktop view](./images/screenshots/simple-coin-flip-game-desktop.png)
-
-### Tablet
-
-![Simple Coin Flip Game tablet view](./images/screenshots/simple-coin-flip-game-tablet.png)
-
-### Mobile
-
-![Simple Coin Flip Game mobile view](./images/screenshots/simple-coin-flip-game-mobile.png)
 
 ## Image Credits
 
